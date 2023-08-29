@@ -46,3 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Extra stuff I added */
+ul, ol, menu {
+	list-style-type: none;
+}

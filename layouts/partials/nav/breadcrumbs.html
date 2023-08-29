@@ -1,0 +1,21 @@
+<nav class="breadcrumbs">
+    <ol>
+        <li>
+            {{ if .IsHome }}
+                <p href="/">~ /</p>
+            {{ else }}
+                <a href="/">~</a>
+            {{ end }}
+        </li>
+        {{- range after 1 .Ancestors.Reverse }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title | lower }}</a>
+            </li>
+        {{- end }}
+        {{ if not .IsHome }}
+            <li>
+                <p>{{ .Title | lower }}</p>
+            </li>
+        {{ end }}
+    </ol>
+</nav>
