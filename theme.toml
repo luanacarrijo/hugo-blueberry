@@ -3,16 +3,16 @@
 
 name = "Blueberry"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/luanacarrijo/hugo-blueberry/blob/master/LICENSE"
+description = "Custom theme for my website"
 homepage = "http://example.com/"
 tags = []
 features = []
 min_version = "0.117.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Luana"
+  homepage = "mirtilo.dev"
 
 # If porting an existing theme
 [original]
